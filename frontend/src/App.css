@@ -1,0 +1,100 @@
+@font-face {
+  font-family: "Proxima Nova black";
+  src: url("./fonts/FontsFree-Net-Proxima-Nova-Black.otf") format("opentype");
+}
+
+.speakers-header {
+  font-size: 5vw;
+  letter-spacing: 10px;
+  color: #254d9f;
+  font-family: "Proxima Nova black";
+  text-align: center;
+  font-weight: 900;
+}
+
+.speakers-header::selection {
+  background-color: #fce100;
+}
+
+.speaker-details {
+  cursor: pointer;
+  box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 0 5% 5% 5%;
+  width: 100%;
+  padding: auto;
+  text-align: center;
+  background-color: #cccccc;
+  height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.content {
+  display: block;
+  position: absolute;
+  bottom: 10px;
+  padding-right: 10px;
+}
+
+.content h3 {
+  font-size: 1.5em;
+  font-family: "Proxima Nova black";
+  color: #fce100;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.content h5 {
+  font-weight: 500;
+  direction: ltr;
+  font-size: 1em;
+  font-family: "Proxima Nova semi";
+  color: white;
+  min-height: 50px;
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+.info {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  bottom: 0;
+  padding: 30px;
+  background: -webkit-linear-gradient(
+    rgba(255, 255, 255, 0.2),
+    rgba(0, 0, 0, 0.2)
+  );
+  background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.2));
+}
+
+.speaker-image-modal {
+  margin: 0;
+  width: 100%;
+  height: 300px;
+  margin-right: 15px;
+}
+
+.speaker-name-modal {
+  width: 100%;
+  font-weight: 900;
+  color: #254d9f;
+  text-transform: uppercase;
+  font-family: "Proxima Nova bold";
+  font-size: 2.14286em;
+  margin-top: 0;
+}
+
+.speaker-job-modal {
+  font-family: "Proxima Nova semi";
+  color: #254d9f;
+  text-transform: uppercase;
+  font-size: 1.28571em;
+  width: 100%;
+}
+
+.ant-modal-body {
+  padding: 0;
+}
